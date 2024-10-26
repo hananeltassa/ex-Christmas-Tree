@@ -18,21 +18,21 @@ for (let i = 1; i <= rows ; i++) {
         line += " ";
     }
 
-    line += "*"; //left star
+    line += "<span class='red'>*</span>";  //left star
 
     if (i >1){
         for( let k=0 ; k< (i-1)*2-1;k++){
-            line+="|";
+            line += "<span class='green'>|</span>"; 
         }
     }
 
     if (i> 1){
-        line += "*";  // right star
+        line += "<span class='red'>*</span>";   // right star
     }
 
     console.log(line); 
 
     const lines = document.createElement('p');
-    lines.textContent = line; 
+    lines.innerHTML = line; 
     tree.appendChild(lines);
 }
