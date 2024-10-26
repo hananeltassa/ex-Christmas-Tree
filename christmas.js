@@ -1,5 +1,6 @@
 const rows = parseInt(prompt("Enter the number of rows for the tree:"), 10);
 
+<<<<<<< HEAD
 const tree=document.createElement('div');
 
 
@@ -10,6 +11,8 @@ tree.style.textAlign = 'center';
 document.body.appendChild(titleElement); 
 document.body.appendChild(tree);
 
+=======
+>>>>>>> 18c94c2c8859c638720101ef1d07d25c45688d07
 for (let i = 1; i <= rows ; i++) {
     let line = "";
 
@@ -30,7 +33,10 @@ for (let i = 1; i <= rows ; i++) {
     }
 
     console.log(line); 
+<<<<<<< HEAD
     const lines = document.createElement('p');
     lines.textContent = line; 
     tree.appendChild(lines);
+=======
+>>>>>>> 18c94c2c8859c638720101ef1d07d25c45688d07
 }
