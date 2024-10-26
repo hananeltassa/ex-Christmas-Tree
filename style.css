@@ -1,0 +1,17 @@
+.red{
+    color: red;
+}
+
+.green{
+    color:green
+}
+
+.tree-title {
+    width: 100%;           
+    text-align: center;    
+    margin: 0;            
+    padding: 10px 0;      
+    font-size: 2em;       
+    color: #228B22;       
+    background-color: #d19292; 
+}
